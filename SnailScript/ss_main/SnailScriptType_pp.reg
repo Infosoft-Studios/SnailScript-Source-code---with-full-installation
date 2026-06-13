@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; -----------------------------------------
+; SnailScript++ (.sspp)
+; -----------------------------------------
+
+[HKEY_CLASSES_ROOT\.sspp]
+@="SnailScript.PP"
+
+[HKEY_CLASSES_ROOT\SnailScript.PP]
+@="SnailScript++ Source File"
+
+[HKEY_CLASSES_ROOT\SnailScript.PP\DefaultIcon]
+@="C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScriptpp.ico"
+
+[HKEY_CLASSES_ROOT\SnailScript.PP\shell\open\command]
+@="\"C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScriptEditor.exe\" \"%1\""

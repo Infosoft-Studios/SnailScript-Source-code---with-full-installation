@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; -----------------------------
+; SnailScript RawMode (.ssrm)
+; -----------------------------
+[HKEY_CLASSES_ROOT\.ssrm]
+@="SnailScript.RawMode"
+
+[HKEY_CLASSES_ROOT\SnailScript.RawMode]
+@="SnailScript Machine Integration"
+
+[HKEY_CLASSES_ROOT\SnailScript.RawMode\DefaultIcon]
+@="C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScript.ico"
+
+[HKEY_CLASSES_ROOT\SnailScript.RawMode\shell\open\command]
+@="\"C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScriptEditor.exe\" \"%1\""

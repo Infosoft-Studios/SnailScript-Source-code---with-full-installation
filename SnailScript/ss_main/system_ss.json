@@ -1,0 +1,11 @@
+{
+  "AllowKernelAccses": true,
+  "AllowOsIntegration": true,
+
+  // Allow the System to make that the function can be used for Hardware int[hal.dll]
+  "AllowHardwareInt": true,
+  "GetHardwareAbstractionLayer": "C:\\Windows\\System32\\hal.dll",
+  "AllowSystemCalls": true,
+  "GetSystem":  "Cont"
+
+}

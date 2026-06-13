@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+; -----------------------------
+; SnailScript (.ss)
+; -----------------------------
+[HKEY_CLASSES_ROOT\.ss]
+@="SnailScript.Source"
+
+[HKEY_CLASSES_ROOT\SnailScript.Source]
+@="SnailScript Source File"
+
+[HKEY_CLASSES_ROOT\SnailScript.Source\DefaultIcon]
+@="C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScript.ico"
+
+[HKEY_CLASSES_ROOT\SnailScript.Source\shell\open\command]
+@="\"C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScriptEditor.exe\" \"%1\""
+
+
+; -----------------------------
+; Web SnailScript (.wss)
+; -----------------------------
+[HKEY_CLASSES_ROOT\.wss]
+@="SnailScript.Web"
+
+[HKEY_CLASSES_ROOT\SnailScript.Web]
+@="Web SnailScript File"
+
+[HKEY_CLASSES_ROOT\SnailScript.Web\DefaultIcon]
+@="C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScript.ico"
+
+[HKEY_CLASSES_ROOT\SnailScript.Web\shell\open\command]
+@="\"C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScriptEditor.exe\" \"%1\""
+
+
+; -----------------------------
+; Application SnailScript (.ass)
+; -----------------------------
+[HKEY_CLASSES_ROOT\.ass]
+@="SnailScript.App"
+
+[HKEY_CLASSES_ROOT\SnailScript.App]
+@="Application SnailScript File"
+
+[HKEY_CLASSES_ROOT\SnailScript.App\DefaultIcon]
+@="C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScript.ico"
+
+[HKEY_CLASSES_ROOT\SnailScript.App\shell\open\command]
+@="\"C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScriptEditor.exe\" \"%1\""

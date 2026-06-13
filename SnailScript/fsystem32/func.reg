@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Associate .sms with SourceMass.File
+[HKEY_CLASSES_ROOT\.sms]
+@="SourceMass.File"
+
+; Define the file type
+[HKEY_CLASSES_ROOT\SourceMass.File]
+@="SS Registry handler"
+
+; Set the custom icon
+[HKEY_CLASSES_ROOT\SourceMass.File\DefaultIcon]
+@="C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScript.ico"
+
+; Set the default program to open .sms files
+[HKEY_CLASSES_ROOT\SourceMass.File\shell\open\command]
+@="\"C:\\Users\\hemku\\Desktop\\SnailScript\\ss_main\\SnailScriptEditor.exe\" \"%1\""
