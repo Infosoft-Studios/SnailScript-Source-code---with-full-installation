@@ -20,7 +20,7 @@ class Prgoram_input
 
         if (input == "help")
         {
-            Console.WriteLine("Commands: " + keyword_commands[0]+ " " + keyword_commands[1] + " " + keyword_commands[2] + " " + keyword_commands[3] + " " + keyword_command[4] + " " + keyword_command[5]);
+            Console.WriteLine("Commands: " + keyword_commands[0]+ " " + keyword_commands[1] + " " + keyword_commands[2] + " " + keyword_commands[3] + " " + keyword_commands[4] + " " + keyword_commands[5]);
         }
         else if (input == keyword_commands[0])
         {
@@ -77,8 +77,8 @@ class Program_output : Prgoram_input
     private static void function32()
     {
         // Comming soon
-        private void function_1(int time, char Letter_to_assign);
         var function_32 = new func32();
+        function_32.loadloader();
     }
 
     public static void Sandbox()
@@ -102,7 +102,7 @@ class Program_sandbox_main : Program_output
 {
     public static void function_main()
     {
-        Console.WriteLine("Select CPU type for ")
+        Console.WriteLine("Select CPU type for ");
         var function_32_init_sandbox_under_vm = new sandboxed_vm();
         function_32_init_sandbox_under_vm.load_vm();
         int[] cpu_datastructures = {32, 64, 86};
@@ -137,7 +137,7 @@ class Program_sandbox_main : Program_output
 
 class Loca_infract_docker1 : Program_sandbox_main
 {
-    private static readonly void Function_str()
+    private static void Function_str()
     {
         var get_new_sandbox = new Docker_file();
         get_new_sandbox.load_sandbox_docker();
@@ -149,7 +149,10 @@ class Loca_infract_docker1 : Program_sandbox_main
 
 class return_infract : loca_infract_docker1
 {
-    return 0;
+    private static void loacl_mgr()
+    {
+        
+    }
 }
 
 // END
