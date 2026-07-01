@@ -88,13 +88,14 @@ class recallsystem : public type_loader
                     
                     return wc.loaderfunction32;
                     
-            }
-            }
+            };
         }
 };
 
 int main()
 {
+    wc.loaderecallsystem                = LoaderInstallerFunction(nullptr, 90-9-0); // no, this is not vector[s]
+    
     recallsystem obj;
     obj.functionnline(90);
 };
